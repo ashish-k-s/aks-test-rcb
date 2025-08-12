@@ -1,10 +1,16 @@
-name: REPLACEREPONAME
-title: FIXME Course Title
+name: aks-test-rcb
+title:  Basics of RHEL Lightspeed
 version: 1
 nav:
 - modules/ROOT/nav.adoc
 - modules/LABENV/nav.adoc
-- modules/chapter1/nav.adoc
-- modules/chapter2/nav.adoc
-- modules/chapter3/nav.adoc
+
+- modules/introduction-to-rhel-lightspeed/nav.adoc
+
+- modules/the-command-line-assistant-powered-by-rhel-lightspeed/nav.adoc
+
+- modules/access-and-limitations-of-the-command-line-assistant/nav.adoc
+
+- modules/generative-ai-functionalities-of-rhel-lightspeed/nav.adoc
+
 - modules/appendix/nav.adoc

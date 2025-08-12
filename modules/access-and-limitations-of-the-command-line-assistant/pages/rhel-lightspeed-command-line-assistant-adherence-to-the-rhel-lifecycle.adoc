@@ -1,0 +1,19 @@
+#  RHEL Lightspeed command-line assistant adherence to the RHEL lifecycle
+
+== RHEL Lightspeed Command-Line Assistant Adherence to the RHEL Lifecycle
+
+The RHEL Lightspeed command-line assistant is designed to support and align with the Red Hat Enterprise Linux (RHEL) lifecycle, ensuring that users receive relevant assistance for their specific RHEL version. This adherence guarantees that the provided information remains accurate and applicable to the supported stages of a system's life.
+
+To understand this relationship, it's crucial to be familiar with the [Red Hat Enterprise Linux Life Cycle](https://access.redhat.com/support/policy/updates/errata/). In brief, RHEL versions go through several phases:
+
+1. **Development Phase**: New features and functionalities are added during this phase. This stage is not supported for production systems.
+2. **General Availability (GA)**: Once the development phase concludes, a stable version is released as GA. This is when RHEL versions become suitable for production workloads.
+3. **Maintenance Support Phase**: In this phase, the product receives bug fixes and security updates without introducing new features. The length of this phase varies between RHEL major versions (e.g., RHEL 8 reached its Maintenance Support Phase in May 2024, with an extended update support until November 2026).
+4. **Extended Update Support (EUS) Phase**: Some RHEL major versions may also offer EUS phases, providing extended maintenance updates for a limited number of systems beyond the standard Maintenance Support Phase.
+
+The RHEL Lightspeed command-line assistant strictly adheres to these lifecycle phases and only provides support and information for systems within their respective active lifecycle stages. For instance:
+
+- It will not offer guidance on features or functionalities unavailable in a specific RHEL version's lifecycle phase.
+- Users cannot access system details directly through the assistant; instead, they must provide context by including relevant environmental details in their input messages. This ensures the assistant responds with appropriate information based on the user's current system configuration and supported lifecycle stage.
+
+By following the RHEL lifecycle, the command-line assistant powered by RHEL Lightspeed maintains accuracy and relevance for administrators managing systems across various stages of their life cycle. It prevents users from encountering unsupported features or misleading information that could lead to incorrect system configurations or insecure practices.

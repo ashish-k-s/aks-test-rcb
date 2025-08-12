@@ -1,0 +1,20 @@
+#  Description as an optional AI tool within the RHEL command-line interface
+
+== The Command-Line Assistant Powered by RHEL Lightspeed
+
+The Command-Line Assistant powered by RHEL Lightspeed is an **optional** AI-driven tool integrated into the RHEL command-line interface (CLI). This intelligent assistant leverages information from various Red Hat resources, such as Knowledge Centered Service (KCS) articles, RHEL documentation, and other relevant materials. The primary purpose of this tool is to provide expert advice and assistance for managing RHEL systems using natural language interactions within the CLI environment.
+
+The Command-Line Assistant powered by RHEL Lightspeed facilitates a range of functionalities:
+
+1. **Answering questions**: Users can ask RHEL-related questions in plain English, and the assistant will provide relevant responses based on the gathered data from Red Hat's official resources.
+2. **Troubleshooting and fixing issues**: The assistant can help diagnose problems and propose solutions for various RHEL-related challenges, making it easier for both novice and experienced users to address issues effectively.
+3. **Deciphering log entries**: Users can ask the assistant to explain log file content or assist in identifying patterns, trends, or anomalies within system logs, thereby simplifying the process of troubleshooting and system analysis.
+4. **Recommendations and guidance**: The Command-Line Assistant offers insights on implementing new RHEL features, finding relevant information, and optimizing system configurations based on Red Hat's best practices.
+
+To use this assistant, users must follow specific syntax within the CLI: invoke it by typing 'c' followed by a question enclosed in quotation marks. For example:
+
+```bash
+$ c "What is the purpose of RHEL Lightspeed?"
+```
+
+Remember, while the Command-Line Assistant powered by RHEL Lightspeed can offer valuable insights and suggestions, it's essential to verify the provided information before applying any recommended actions. This precaution ensures that users maintain system integrity and accuracy in their operations.

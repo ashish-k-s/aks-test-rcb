@@ -1,0 +1,5 @@
+#  Access and Limitations of the Command-Line Assistant
+
+= Access and Limitations of the Command-Line Assistant
+
+The RHEL Lightspeed command-line assistant is designed as an optional AI tool within the RHEL command-line interface, adhering to the RHEL lifecycle. It draws information from Red Hat Knowledge Centered Service (KCS) articles, RHEL documentation, and other resources. The assistant cannot directly access system information; instead, it provides guidance on running relevant commands to obtain necessary details. Supported versions align with the Red Hat Enterprise Linux Life Cycle. Users must ensure they do not include personal data in their inputs, as interactions are logged locally and potentially used to enhance Red Hat's offerings. The assistant doesn't necessitate direct internet connectivity, enabling proxy usage for systems not directly connected to the internet.

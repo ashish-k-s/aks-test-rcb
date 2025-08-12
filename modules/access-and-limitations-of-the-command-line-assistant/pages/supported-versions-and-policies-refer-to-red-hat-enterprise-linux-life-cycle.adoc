@@ -1,0 +1,19 @@
+#  Supported versions and policies (refer to Red Hat Enterprise Linux Life Cycle)
+
+== Supported Versions and Policies
+
+RHEL Lightspeed's command-line assistant is designed with a focus on adhering to the established lifecycle of Red Hat Enterprise Linux (RHEL). This ensures that users receive support and updates in line with Red Hat's official policy for each RHEL version. 
+
+To understand the specific supported versions and policies, refer to the [Red Hat Enterprise Linux Life Cycle](https://access.redhat.com/support/policy/updates/rhel-life-cycle). This comprehensive document outlines:
+
+1. **RHEL Minor Releases**: These are updates within the same major RHEL version (e.g., RHEL 8.x), providing enhancements, security patches, and bug fixes. The command-line assistant supports these minor releases as long as they remain in the 'Full Support' or 'Maintenance Support' phase according to the life cycle.
+
+2. **RHEL Major Releases**: Major releases (e.g., RHEL 7 to RHEL 8) represent significant changes and upgrades, often introducing new features and architectural improvements. The command-line assistant supports these major releases during their respective support phases as per the life cycle document.
+
+3. **End of Life (EOL) and Extended Life Cycle Support (ELCS)**: Red Hat defines clear milestones for each RHEL version, including the End of Life (EOL) date when standard support ends, and Extended Lifecycle Support (ELCS), offering extended maintenance and update availability beyond EOL. The command-line assistant's compatibility and support are subject to these phases as documented in the RHEL Life Cycle.
+
+4. **Supported Architectures**: The command-line assistant supports various hardware architectures such as x86_64, aarch64, ppc64le, s390x, among others. Refer to the Red Hat Enterprise Linux System Requirements documented in the life cycle for detailed architecture support information.
+
+5. **Sustaining Support**: For RHEL versions that have reached their End of Life (EOL), Red Hat offers Sustaining Support, providing limited access to errata, bug fixes, and security updates on a best-effort basis. This support is subject to specific terms and conditions outlined in the RHEL Life Cycle document.
+
+In summary, to ensure accurate understanding and proper usage of the command-line assistant powered by RHEL Lightspeed, always cross-reference with the [Red Hat Enterprise Linux Life Cycle](https://access.redhat.com/support/policy/updates/rhel-life-cycle). This will provide you with detailed information about supported versions, architectures, and policy details, aligning your practices with Red Hat's official guidelines.

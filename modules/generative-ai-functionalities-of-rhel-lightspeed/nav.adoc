@@ -1,0 +1,2 @@
+* xref:generative-ai-functionalities-of-rhel-lightspeed.adoc[]
+** xref:utilization-of-watsonx-ai-api-llm-large-language-model-as-saas-external-infrastructure.adoc[]

@@ -1,6 +1,6 @@
 site:
-  title: FIXME Course Title
-  start_page: REPLACEREPONAME::index.adoc
+  title:  Basics of RHEL Lightspeed
+  start_page: aks-test-rcb::index.adoc
 
 content:
   sources:

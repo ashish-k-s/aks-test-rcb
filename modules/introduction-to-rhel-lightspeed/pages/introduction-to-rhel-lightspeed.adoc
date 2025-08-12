@@ -1,0 +1,9 @@
+#  Introduction to RHEL Lightspeed
+
+- **Introduction to RHEL Lightspeed**
+  - RHEL Lightspeed is an intelligent system designed to simplify RHEL management for users of all experience levels.
+  - It offers a Command-Line Assistant, powered by RHEL Lightspeed, which functions as an optional AI tool within the RHEL command-line interface.
+  - The assistant draws information from Red Hat Knowledge Centered Service (KCS) articles, RHEL documentation, and other resources to help users with various activities such as answering questions, troubleshooting issues, understanding log files, and seeking recommendations.
+  - Users can interact with the Command-Line Assistant for tasks like configuring, managing, and troubleshooting their RHEL systems.
+  - The assistant does not have direct access to system information; instead, it suggests relevant commands when specific data is needed.
+  - It leverages the WatsonX AI API LLM (Large Language Model) as a SaaS external infrastructure for its functionalities.

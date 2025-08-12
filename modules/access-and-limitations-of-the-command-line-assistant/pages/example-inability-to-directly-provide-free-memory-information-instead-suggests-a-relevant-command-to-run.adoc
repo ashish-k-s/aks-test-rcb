@@ -1,0 +1,18 @@
+#  Example: Inability to directly provide free memory information; instead, suggests a relevant command to run
+
+=== RHEL Lightspeed Command-Line Assistant Limitations and Alternatives - Memory Information
+
+When using the RHEL Lightspeed Command-Line Assistant as an optional AI tool within the RHEL command-line interface, it's essential to understand its limitations. One such limitation is that the assistant cannot directly access or provide specific system information, such as the amount of free memory on your system. 
+
+For example, if you ask the following question: "how much free memory does this system have?", the command-line assistant will not retrieve this data directly from the system. Instead, it guides you by suggesting a relevant command to obtain that information. In this case, the assistant would recommend running the `free -m` command to display memory usage statistics in megabytes:
+
+```bash
+$ free -m
+              total        used        free      shared  buff/cache   available
+Mem:           7951       3246       4089         62       616       4387
+Swap:          1023         17       1006
+```
+
+This command-line output offers a breakdown of total, used, free, shared, buffered, and cached memory, as well as swap space usage. The assistant's approach ensures user privacy by refraining from accessing sensitive system details directly while still helping users acquire the necessary information to address their needs. 
+
+To summarize, the RHEL Lightspeed Command-Line Assistant supports users in troubleshooting and understanding their systems without compromising data security or privacy. When specific system details are required, such as free memory, the assistant provides alternative methods (like running commands) to access this information, keeping in mind the RHEL lifecycle policies and supported versions as outlined in the Red Hat Enterprise Linux Life Cycle documentation.

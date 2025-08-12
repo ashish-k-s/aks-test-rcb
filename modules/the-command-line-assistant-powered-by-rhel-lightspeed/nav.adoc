@@ -1,0 +1,3 @@
+* xref:the-command-line-assistant-powered-by-rhel-lightspeed.adoc[]
+** xref:description-as-an-optional-ai-tool-within-the-rhel-command-line-interface.adoc[]
+** xref:information-sources-red-hat-knowledge-centered-service-kcs-articles-rhel-documentation-and-other-resources.adoc[]

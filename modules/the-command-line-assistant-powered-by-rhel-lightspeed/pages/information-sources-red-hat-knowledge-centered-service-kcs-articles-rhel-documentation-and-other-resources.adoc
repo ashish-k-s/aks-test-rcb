@@ -1,0 +1,22 @@
+#  Information sources: Red Hat Knowledge Centered Service (KCS) articles, RHEL documentation, and other resources
+
+== The Command-Line Assistant Powered by RHEL Lightspeed
+- Description as an optional AI tool within the RHEL command-line interface
+- Information sources: Red Hat Knowledge Centered Service (KCS) articles, RHEL documentation, and other resources
+
+The command-line assistant powered by RHEL Lightspeed acts as an intelligent, optional AI tool embedded in the RHEL command-line interface. This AI-driven assistant harnesses a wealth of information from multiple sources to help users efficiently manage their Red Hat Enterprise Linux (RHEL) systems using natural language interactions.
+
+### Information Sources:
+
+The command-line assistant leverages three main information repositories:
+
+1. **Red Hat Knowledge Centered Service (KCS) articles**:
+   - KCS articles are curated by Red Hat experts and represent a vast collection of knowledge related to RHEL, addressing various user queries, troubleshooting steps, configuration guides, and best practices. By accessing these articles, the command-line assistant provides accurate and up-to-date information on RHEL functionalities and issue resolutions.
+
+2. **RHEL Documentation**:
+   - The official RHEL documentation encompasses a wide array of topics, including installation guides, configuration instructions, API references, and release notes. The command-line assistant draws from this resource to ensure that users receive technically precise information directly linked with Red Hat's product specifications and guidelines.
+
+3. **Other resources**:
+   - Besides KCS articles and RHEL documentation, the assistant may also reference additional trusted sources such as community forums, blog posts by recognized experts, and relevant third-party content. This ensures comprehensive support while users engage with diverse learning materials to enhance their understanding of RHEL concepts and practices.
+
+By combining these information repositories, the command-line assistant powered by RHEL Lightspeed offers an all-encompassing support system that caters to both novice and seasoned RHEL users. Users can ask questions related to system management, troubleshoot issues, interpret log files, or seek recommendations on best practices – all in a conversational manner using natural language. This makes the learning curve gentler for beginners while providing experienced users with quick access to pertinent information, ultimately streamlining their RHEL experience.

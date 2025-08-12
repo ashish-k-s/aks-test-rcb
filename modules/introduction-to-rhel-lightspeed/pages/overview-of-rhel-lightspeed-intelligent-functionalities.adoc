@@ -1,0 +1,27 @@
+#  Overview of RHEL Lightspeed intelligent functionalities
+
+== Overview of RHEL Lightspeed Intelligent Functionalities
+
+RHEL (Red Hat Enterprise Linux) Lightspeed introduces a suite of intelligent functionalities designed to streamline system management for both novice and experienced users. By leveraging advanced AI capabilities, RHEL Lightspeed enhances the overall user experience by providing proactive insights and assistance throughout various system interactions.
+
+1. **Command-Line Assistant Powered by RHEL Lightspeed**
+
+This intelligent feature integrates seamlessly within the RHEL command-line interface (CLI) as an optional AI tool, aiming to simplify complex tasks while offering valuable guidance for users at all experience levels. The Command-Line Assistant can:
+
+- **Answer questions**: Provide detailed responses to RHEL-related inquiries sourced from Red Hat Knowledge Centered Service (KCS) articles and official RHEL documentation.
+- **Assist with troubleshooting**: Help identify, diagnose, and fix common issues encountered while working within the RHEL environment.
+- **Interpret log files**: Offer insights into system logs to facilitate understanding of errors or abnormalities.
+- **Provide recommendations**: Suggest optimal configurations or best practices based on your specific use case and requirements.
+
+2. **Generative AI Functionalities**
+
+RHEL Lightspeed harnesses the power of WatsonX AI API LLM (Large Language Model) deployed as a SaaS external infrastructure to enable its intelligent features. This model allows RHEL Lightspeed to understand and respond to user requests, providing relevant information and actionable solutions. It essentially transforms the command-line experience by enabling more intuitive interactions with the operating system.
+
+By incorporating these intelligent functionalities, RHEL Lightspeed empowers users to:
+
+- **Configure systems efficiently**: Receive step-by-step guidance for configuring system settings and components.
+- **Manage updates and patches**: Stay informed about relevant updates and apply them seamlessly while minimizing potential disruptions.
+- **Troubleshoot effectively**: Access expert insights and recommendations when encountering system issues, ensuring timely resolution.
+- **Explore new features**: Get acquainted with RHEL's latest capabilities through personalized guidance and suggestions.
+
+In summary, the intelligent functionalities provided by RHEL Lightspeed aim to democratize the RHEL experience for users of all skill levels by offering intuitive AI assistance in system configuration, troubleshooting, and feature exploration within a secure, enterprise-grade Linux environment.

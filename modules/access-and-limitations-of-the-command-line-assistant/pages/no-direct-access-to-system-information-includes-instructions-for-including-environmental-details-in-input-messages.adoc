@@ -1,0 +1,31 @@
+#  No direct access to system information; includes instructions for including environmental details in input messages
+
+= No Direct Access to System Information; Including Environmental Details in Input Messages
+
+RHEL Lightspeed Command-Line Assistant, while an intelligent and helpful tool within the RHEL command-line interface, does not have direct access to system information. This means that if you ask it for specific details like free memory or other system data, it won't directly fetch this information from your machine. 
+
+Here's how you can effectively incorporate environmental context into your queries:
+
+1. **Include the Information in Your Prompt:**
+   When posing a question, ensure to embed relevant details within the query itself. For example, if you want to know how much free memory is available, you could phrase it as:
+   ```
+   $ c "What is the current free memory status on this system?"
+   ```
+
+2. **Using Attachments with `--attachment` Option:**
+   If your data resides in a file, you can attach that file using the `--attachment` option for more structured input. For instance, if you have a log file containing relevant error messages:
+   ```
+   $ c --attachment /path/to/error_log "Can you analyze this log and suggest possible causes for the service failures?"
+   ```
+
+3. **Using Shell Pipeline with `--with-output` Option:**
+   You can leverage existing command outputs and pass them to the assistant using the `--with-output` option. For example:
+   ```
+   $ free -m | sudo c --with-output "What does this memory usage breakdown indicate about system performance?"
+   ```
+
+These methods ensure that you provide the necessary context for the RHEL Lightspeed Command-Line Assistant to give you meaningful and relevant guidance, without requiring it to directly access sensitive system data.
+
+**Important Note:** The command-line assistant is not designed to handle personal information, business-sensitive details, confidential information, or any kind of system data. Please refrain from including such content in your queries to maintain data security and privacy. 
+
+Your interactions with the RHEL Lightspeed Command-Line Assistant are logged locally on your system for your reference, as well as on Red Hat's servers, which may be used to improve their products or services. Always ensure that your inputs do not compromise sensitive information or violate privacy policies.

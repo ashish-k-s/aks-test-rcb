@@ -1,0 +1,10 @@
+#  Generative AI Functionalities of RHEL Lightspeed
+
+- **Generative AI Functionalities of RHEL Lightspeed**
+
+  - RHEL Lightspeed harnesses the power of WatsonX AI API LLM (Large Language Model) as a SaaS external infrastructure.
+  - This integration enables the command-line assistant to incorporate extensive knowledge from RHEL product documentation and Red Hat Knowledgebase.
+  - Users can benefit from expert advice on understanding, configuring, and troubleshooting their RHEL systems using natural language queries.
+  - The generative AI models process user requests and provide relevant information, recommendations, or guidance based on available resources.
+  - By leveraging these functionalities, users experience an enhanced, intelligent interaction with the RHEL environment, irrespective of their expertise level.
+  - This approach combines human-like communication with vast technical knowledge to facilitate efficient system management and problem resolution within RHEL systems.
